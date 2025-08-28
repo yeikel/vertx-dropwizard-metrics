@@ -1,5 +1,3 @@
-# Dependabot configuration to keep micrometer up to date
-# The requirements were defined in https://github.com/vert-x3/vertx-micrometer-metrics/issues/267
 version: 2
 updates:
   # Propose PRs for all the release types in the master branch.
