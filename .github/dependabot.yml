@@ -1,6 +1,5 @@
 version: 2
 updates:
-  # Propose PRs for all the release types in the master branch.
   - package-ecosystem: "maven"
     directory: "/"
     target-branch: master
@@ -9,7 +8,6 @@ updates:
     allow:
       - dependency-name: "io.dropwizard.metrics:*"
 
-    # Propose only minor and patch updates for the 4.x and 5.0 branches.
   - package-ecosystem: "maven"
     directory: "/"
     target-branch: 4.x
